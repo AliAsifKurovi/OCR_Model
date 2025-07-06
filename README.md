@@ -60,3 +60,23 @@ python predict.py
 
 ### ✅ Example Output
 `Predicted Character: G`
+
+### 📌 To Do / Ideas
+ • Add web interface using Streamlit or Flask
+ • Extend to multi-character word recognition
+ • Improve accuracy with data augmentation
+
+### 📃 License
+This project is open-source under the MIT License.
+
+### 🤝 Contributing
+Pull requests and contributions are welcome! If you’d like to suggest improvements or report bugs, please open an issue.
+
+### 🙋‍♂️ Author
+`Mohammad Ali Asif` <br>
+<a href="https://www.linkedin.com/in/mohammad-ali-asif ">linkedIn</a>
+ 
+
+
+
+
