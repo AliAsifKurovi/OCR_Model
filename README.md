@@ -53,6 +53,16 @@ streamlit run app.py          # launches web app
 - Dense (128 units, ReLU)
 - Output: Dense (26 units, Softmax)
 
+ ### 🧠 CNN Model Architecture Overview
+- **Input Layer:** 28×28 grayscale image
+- **Conv2D Layer 1:** 32 filters, 3×3 kernel, ReLU activation
+- **MaxPooling Layer 1:** 2×2 pool size
+- **Conv2D Layer 2:** 64 filters, 3×3 kernel, ReLU activation
+- **MaxPooling Layer 2:** 2×2 pool size
+- **Flatten Layer:** Converts 2D feature maps to 1D vector
+- **Dense Layer:** 128 units, ReLU activation
+- **Output Layer:** 26 units (for letters A–Z), Softmax activation
+
 ### 📊 Dataset
 - Name: EMNIST Letters
 - Source: TensorFlow Datasets
