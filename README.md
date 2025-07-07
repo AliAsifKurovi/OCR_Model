@@ -10,8 +10,9 @@ OCR_Model/ <br>
 ├── train_model.py # Trains CNN on EMNIST and saves model <br>
 ├── app.py # redirect to web page Loads image and predicts character <br>
 ├── ocr_model.h5 # Trained Keras model (generated after training) <br>
-├── test_char.jpg # Input image for prediction <br>
-├── venv/ # Virtual environment (optional) <br>
+├── ocr_model.keras # Trained Keras model (generated after training) <br>
+├── best_ocr_model.keras # best Trained Keras model (generated after training) <br>
+├── final_ocr_model.keras # choose this as final for app best Trained Keras model (generated after training) <br>
 └── README.md # Project documentation <br>
 
 ## 🔧 Requirements
